@@ -21,6 +21,10 @@ body {
   background: radial-gradient(circle at top, #181830 0, #050511 55%);
   color: var(--text);
 }
+a {
+    color: inherit;      /* Hereda el color del texto circundante */
+    text-decoration: none; /* Quita el subrayado */
+}
 
 .page {
   max-width: 1100px;
