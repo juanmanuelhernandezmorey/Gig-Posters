@@ -21,6 +21,23 @@ body {
   background: radial-gradient(circle at top, #181830 0, #050511 55%);
   color: var(--text);
 }
+
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap: 10px;
+  align-items:center;
+  margin-top: 8px;
+}
+
+.navlink{
+  color: var(--text);
+  text-decoration: none;
+  opacity: .85;
+}
+.navlink:hover{ opacity: 1; text-decoration: underline; }
+.sep{ opacity:.35; }
+
 a {
     color: inherit;      /* Hereda el color del texto circundante */
     text-decoration: none; /* Quita el subrayado */
